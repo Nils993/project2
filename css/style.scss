@@ -1,0 +1,58 @@
+$cr1: #445161; //переменныe
+$cr2: #ffffff;
+$fs: 16px;
+$pad: 50px;
+body {
+  width: 1280px;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.header {
+  width: 100%;
+  background-color: $cr1;
+  display: flex;
+  justify-content: space-between;
+  padding: $pad;
+  box-sizing: border-box;
+}
+.header-wrap {
+  width: 50%;
+  color: $cr2;
+  .header-title {
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin: 0 0 27px 0;
+  }
+  .header-list {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    list-style-type: none;
+    margin: 0 0 0 0;
+  }
+  .header-list-item {
+    position: relative;
+    &::before {
+      content: "";
+      display: block;
+      width: 25px;
+      height: 19px;
+
+      position: absolute;
+      top: 8px;
+      left: -33px;
+      background-image: url(../img/check.png);
+    }
+  }
+}
+.header-img {
+  display: block;
+  width: 469px;
+  height: 214px;
+  background-color: #fff;
+  // background-image: url(https://img3.goodfon.ru/wallpaper/nbig/a/e4/moraine-lake-banff-national-6336.jpg);
+  // background-size: cover;
+  // картинка фоном
+}
