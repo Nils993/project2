@@ -138,3 +138,50 @@ body {
     }
   }
 }
+.Screenshots {
+  width: 100%;
+  padding: $pad;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  &-title {
+    margin: 0;
+    display: block;
+    width: 100%;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: $cr1;
+    text-align: center;
+  }
+  &-wrapper {
+    margin: 25px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+
+    width: 50%;
+    .Screenshots-photo {
+      display: block;
+      background-color: $cr1;
+    }
+    .Screenshots-photo-wrapper {
+      margin: 0;
+      width: 63%;
+    }
+    .Screenshots-photo-title {
+      margin: 0;
+      display: block;
+      font-size: 24px;
+      line-height: 30px;
+      font-weight: 400;
+      color: $cr1;
+    }
+    .Screenshots-photo-txt {
+      margin: 0;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+      color: #333333;
+    }
+  }
+}

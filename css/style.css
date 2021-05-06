@@ -163,4 +163,65 @@ body {
 .Dignity-list-wrap .Dignity-listsummary::-webkit-details-marker {
   display: none;
 }
+
+.Screenshots {
+  width: 100%;
+  padding: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Screenshots-title {
+  margin: 0;
+  display: block;
+  width: 100%;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #445161;
+  text-align: center;
+}
+
+.Screenshots-wrapper {
+  margin: 25px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+}
+
+.Screenshots-wrapper .Screenshots-photo {
+  display: block;
+  background-color: #445161;
+}
+
+.Screenshots-wrapper .Screenshots-photo-wrapper {
+  margin: 0;
+  width: 63%;
+}
+
+.Screenshots-wrapper .Screenshots-photo-title {
+  margin: 0;
+  display: block;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #445161;
+}
+
+.Screenshots-wrapper .Screenshots-photo-txt {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #333333;
+}
 /*# sourceMappingURL=style.css.map */
