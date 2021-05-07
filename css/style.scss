@@ -185,3 +185,142 @@ body {
     }
   }
 }
+
+.Reviews {
+  width: 100%;
+  padding: $pad;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  &-title {
+    width: 100%;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: $cr1;
+    text-align: center;
+    margin: 0 0 11px 0;
+  }
+  &-wrap {
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px 0 0px 0;
+    .Reviews-img {
+      width: 75px;
+      height: 75px;
+      border-radius: 50%;
+      background-color: $cr1;
+      margin: 0 0 0 0;
+    }
+    .Reviews-txt {
+      box-sizing: border-box;
+      width: 483px;
+      border-radius: 3%;
+      background-color: #ebebeb;
+      position: relative;
+      font-size: 14px;
+      line-height: 18px;
+      font-weight: 400;
+      font-style: italic;
+      color: #333333;
+      padding: 16px 20px 16px 16px;
+
+      &::before {
+        content: "";
+        display: block;
+        border: 20px solid transparent;
+        border-right: 20px solid #ebebeb;
+        position: absolute;
+        top: 10px;
+        left: -35px;
+      }
+    }
+    .Reviews-sing {
+      display: block;
+      margin: 0;
+      font-size: 14px;
+      line-height: 18px;
+      font-weight: 400;
+      color: #989898;
+      padding: 15px 0 0 0;
+    }
+  }
+}
+.Buy {
+  width: 100%;
+
+  padding: $pad;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: flex-end; //выравнять элементы по нижнему краю
+  &-title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: $cr1;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .price-wraper {
+    width: 300px;
+    background-color: $cr1;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 0 0 20px 0;
+
+    .price-title {
+      display: block;
+      font-size: 24px;
+      line-height: 30px;
+      font-weight: 400;
+      color: $cr2;
+      text-align: center;
+      margin: 15px;
+    }
+    .price {
+      height: 71px;
+      font-size: 40px;
+      line-height: 30px;
+      font-weight: 400;
+      color: $cr1;
+      background-color: #fff;
+      border: 2px solid #445162;
+      box-sizing: border-box;
+      text-align: center;
+      padding: 10px;
+      margin: 0;
+    }
+    .price-list {
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 400;
+      color: $cr2;
+      margin: 0;
+      padding: 19px;
+    }
+    .price-item {
+      list-style-position: inside;
+    }
+    .buy-btn {
+      width: 260px;
+      height: 40px;
+      background-color: #ffffff;
+      display: block;
+      text-align: center;
+      margin: 0 auto;
+      font-size: 18px;
+      line-height: 18px;
+      font-weight: 700;
+      color: #445161;
+      text-transform: uppercase;
+      border-radius: 10px;
+    }
+  }
+}

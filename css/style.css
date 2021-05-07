@@ -224,4 +224,176 @@ body {
   font-weight: 400;
   color: #333333;
 }
+
+.Reviews {
+  width: 100%;
+  padding: 50px;
+  background-color: #f5f5f5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Reviews-title {
+  width: 100%;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #445161;
+  text-align: center;
+  margin: 0 0 11px 0;
+}
+
+.Reviews-wrap {
+  width: 49%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0px 0 0px 0;
+}
+
+.Reviews-wrap .Reviews-img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #445161;
+  margin: 0 0 0 0;
+}
+
+.Reviews-wrap .Reviews-txt {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 483px;
+  border-radius: 3%;
+  background-color: #ebebeb;
+  position: relative;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  font-style: italic;
+  color: #333333;
+  padding: 16px 20px 16px 16px;
+}
+
+.Reviews-wrap .Reviews-txt::before {
+  content: "";
+  display: block;
+  border: 20px solid transparent;
+  border-right: 20px solid #ebebeb;
+  position: absolute;
+  top: 10px;
+  left: -35px;
+}
+
+.Reviews-wrap .Reviews-sing {
+  display: block;
+  margin: 0;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #989898;
+  padding: 15px 0 0 0;
+}
+
+.Buy {
+  width: 100%;
+  padding: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.Buy-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #445161;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.Buy .price-wraper {
+  width: 300px;
+  background-color: #445161;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 0 20px 0;
+}
+
+.Buy .price-wraper .price-title {
+  display: block;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  margin: 15px;
+}
+
+.Buy .price-wraper .price {
+  height: 71px;
+  font-size: 40px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #445161;
+  background-color: #fff;
+  border: 2px solid #445162;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+}
+
+.Buy .price-wraper .price-list {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0;
+  padding: 19px;
+}
+
+.Buy .price-wraper .price-item {
+  list-style-position: inside;
+}
+
+.Buy .price-wraper .buy-btn {
+  width: 260px;
+  height: 40px;
+  background-color: #ffffff;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #445161;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
 /*# sourceMappingURL=style.css.map */
